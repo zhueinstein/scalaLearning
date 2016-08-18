@@ -5,6 +5,7 @@ package com.fisher.hello
   */
 object HelloWorld {
     def main(args: Array[String]) {
-	println("Hello, My first git program!")
+	val int = Int.MaxValue;
+	println(int + 1 == Int.MinValue)
     }
 }
